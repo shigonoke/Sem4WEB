@@ -1,0 +1,16 @@
+site.ru
+me<--------->webserver(nginx)<----------->index.html
+me<--------->webserver(nginx)<----------->css,js,fonts,img
+
+site.ru
+me<------->webserver(nginx)<-----------> php (собирает html) <------>bd
+me<--------->webserver(nginx)<----------->css,js,fonts,img
+
+site.ru
+me<--------->webserver(nginx)<----------->index.html
+me<--------->webserver(nginx)<----------->css,js
+js<-------->webserver(nginx)<-----------> php (вернет данные)<-----> bd
+me<--------->webserver(nginx)<----------->css,js,fonts,img
+
+Семинар php: https://paiza.io/projects/knjsYVRSkJVt1lJ79EHbtA?language=php
+MYSQL: https://onecompiler.com/mysql/3zbfhs57q
